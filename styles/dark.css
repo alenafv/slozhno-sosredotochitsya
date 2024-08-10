@@ -6,22 +6,9 @@
   --subtitle-bg-color: #ff0070;
   --subtitle-text-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
+  --button-border-color: rgba(255, 0, 112, 0.4);
 }
 
 .page.theme_dark .header__decorative-element {
   display: flex;
-}
-
-.page.theme_dark .header__theme-menu {
-  margin-block-start: 0;
-} 
-
-@media (768px < width <= 1024px) and (668px < height <= 768px) {
-  .page.theme_dark .decorated-zone {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: calc(100vw / 3.35);
-    margin-block-start: 20px;
-    justify-content: end;
-  }
 }

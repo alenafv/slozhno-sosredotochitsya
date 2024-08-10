@@ -11,4 +11,5 @@
   --font-size: 18px;
   --line-height: 130%;
   --bg-image: url(../images/cover-image-dark.png);
+  --button-border-color: rgba(255, 0, 112, 0.4);
 }
