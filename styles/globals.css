@@ -43,3 +43,7 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+p ~ p {
+  margin-block-start: 10px;
+}
